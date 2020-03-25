@@ -26,7 +26,7 @@ SECRET_KEY = 'xnbw*9m*=o(8g0)qf9x3jit1nu7q=z2ncnfhtbxt!8x29*4tcf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost' ,'byamugishaprojects.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost' ,'byamugishaprojects.herokuapp.com']
 
 
 # Application definition
