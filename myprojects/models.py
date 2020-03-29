@@ -7,7 +7,6 @@ class Program(models.Model):
     description = models.TextField()
     owner = models.ForeignKey(
         'auth.User', related_name='programs', on_delete=models.CASCADE)
-    highlighted = models.TextField()
     class Meta:
         ordering = ['created']
 
